@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		824FC9E51C606AF200BE7072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 824FC9E41C606AF200BE7072 /* main.m */; };
 		824FC9E81C606AF200BE7072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 824FC9E71C606AF200BE7072 /* AppDelegate.m */; };
-		824FC9EB1C606AF200BE7072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824FC9EA1C606AF200BE7072 /* ViewController.m */; };
+		824FC9EB1C606AF200BE7072 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824FC9EA1C606AF200BE7072 /* LoginViewController.m */; };
 		824FC9EE1C606AF200BE7072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824FC9EC1C606AF200BE7072 /* Main.storyboard */; };
 		824FC9F01C606AF200BE7072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824FC9EF1C606AF200BE7072 /* Assets.xcassets */; };
 		824FC9F31C606AF200BE7072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824FC9F11C606AF200BE7072 /* LaunchScreen.storyboard */; };
 		824FC9FE1C606AF200BE7072 /* BizagiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 824FC9FD1C606AF200BE7072 /* BizagiTests.m */; };
+		824FCA0B1C60C7CF00BE7072 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 824FCA091C60C7CF00BE7072 /* Default.png */; };
+		824FCA0C1C60C7CF00BE7072 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824FCA0A1C60C7CF00BE7072 /* Default@2x.png */; };
+		824FCA0E1C60D84B00BE7072 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 824FCA0D1C60D84B00BE7072 /* inbox.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +34,8 @@
 		824FC9E41C606AF200BE7072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		824FC9E61C606AF200BE7072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		824FC9E71C606AF200BE7072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		824FC9E91C606AF200BE7072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		824FC9EA1C606AF200BE7072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		824FC9E91C606AF200BE7072 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		824FC9EA1C606AF200BE7072 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		824FC9ED1C606AF200BE7072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		824FC9EF1C606AF200BE7072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824FC9F21C606AF200BE7072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +43,9 @@
 		824FC9F91C606AF200BE7072 /* BizagiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizagiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		824FC9FD1C606AF200BE7072 /* BizagiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BizagiTests.m; sourceTree = "<group>"; };
 		824FC9FF1C606AF200BE7072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824FCA091C60C7CF00BE7072 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		824FCA0A1C60C7CF00BE7072 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		824FCA0D1C60D84B00BE7072 /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		824FC9D71C606AF100BE7072 = {
 			isa = PBXGroup;
 			children = (
+				824FCA081C60C39C00BE7072 /* Assets */,
 				824FC9E21C606AF200BE7072 /* Bizagi */,
 				824FC9FC1C606AF200BE7072 /* BizagiTests */,
 				824FC9E11C606AF200BE7072 /* Products */,
@@ -83,8 +90,8 @@
 			children = (
 				824FC9E61C606AF200BE7072 /* AppDelegate.h */,
 				824FC9E71C606AF200BE7072 /* AppDelegate.m */,
-				824FC9E91C606AF200BE7072 /* ViewController.h */,
-				824FC9EA1C606AF200BE7072 /* ViewController.m */,
+				824FC9E91C606AF200BE7072 /* LoginViewController.h */,
+				824FC9EA1C606AF200BE7072 /* LoginViewController.m */,
 				824FC9EC1C606AF200BE7072 /* Main.storyboard */,
 				824FC9EF1C606AF200BE7072 /* Assets.xcassets */,
 				824FC9F11C606AF200BE7072 /* LaunchScreen.storyboard */,
@@ -109,6 +116,16 @@
 				824FC9FF1C606AF200BE7072 /* Info.plist */,
 			);
 			path = BizagiTests;
+			sourceTree = "<group>";
+		};
+		824FCA081C60C39C00BE7072 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				824FCA0D1C60D84B00BE7072 /* inbox.png */,
+				824FCA0A1C60C7CF00BE7072 /* Default@2x.png */,
+				824FCA091C60C7CF00BE7072 /* Default.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +210,10 @@
 			files = (
 				824FC9F31C606AF200BE7072 /* LaunchScreen.storyboard in Resources */,
 				824FC9F01C606AF200BE7072 /* Assets.xcassets in Resources */,
+				824FCA0E1C60D84B00BE7072 /* inbox.png in Resources */,
+				824FCA0C1C60C7CF00BE7072 /* Default@2x.png in Resources */,
 				824FC9EE1C606AF200BE7072 /* Main.storyboard in Resources */,
+				824FCA0B1C60C7CF00BE7072 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824FC9EB1C606AF200BE7072 /* ViewController.m in Sources */,
+				824FC9EB1C606AF200BE7072 /* LoginViewController.m in Sources */,
 				824FC9E81C606AF200BE7072 /* AppDelegate.m in Sources */,
 				824FC9E51C606AF200BE7072 /* main.m in Sources */,
 			);
